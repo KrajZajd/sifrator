@@ -12,7 +12,10 @@ def vyber_souboru():
         title="Vyberte soubor k začiforování/dešifrování",
     )
 
-    # Zavře skryté okno
+    
+
+
+    
     root.destroy()
     return cesta_k_souboru
 def bits_to_bytes(bits):
